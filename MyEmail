@@ -1,0 +1,15 @@
+
+Hello Lydia,
+
+
+I have since review the data order files. 
+
+A couple of validation notes. 
+
+On the transactions file, there were 12,500 lines where final sale was blank. 
+I assumed these were freebees given out to generate more business.
+
+There were also 12,500 lines that had zero for final quantity.
+These were excluded as it is assumed that items will be either purchased or returned with each transaction.
+The sum of sales for these zero lines was $57,372.67. This is excluded from the analysis results.
+

@@ -6,15 +6,13 @@ I have since review the data order files.
 
 A couple of validation notes. 
 
-
-
 On the transactions file, there were 12,500 lines that had zero for final quantity.
 These were excluded as it is assumed that items will be either purchased or returned with each transaction.
-The sum of sales for these zero lines was $57,372.67. This is excluded from the analysis results.
+The sum of sales for these zero lines was $57,372.67 (33.4% of total). This is excluded from the analysis results.
 
-There were 4,338 lines that had no barcode these account for $14,010.56 in sales (12.3% of total sales) and 4,672.79 quantity (11.5% of qty) and will be excluded.
+After the above exclusion, there were 4,338 lines that had no barcode these account for $14,010.56 in sales (12.3% of total sales) and 4,672.79 quantity (11.5% of qty) and will be excluded.
 There were 5 lines that had -1 barcode these account for $9.71 (<0.01% of total sales) in sales and 5 quantity and will be excluded.
 
-After these exclusions, there were 11,156 lines (~34% of the new total lines) where final sale was blank. 
+After all of these exclusions, there were 11,156 lines (~34% of the new total lines) where final sale was blank. 
 I assumed these were freebees given out to generate more business. 
 I also assumed any final quantity with a decimal value was a valid transaction.

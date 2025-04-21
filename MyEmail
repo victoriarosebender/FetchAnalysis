@@ -1,6 +1,4 @@
-
 Hello Lydia,
-
 
 I have since review the data order files. 
 
@@ -15,4 +13,12 @@ There were 5 lines that had -1 barcode these account for $9.71 (<0.01% of total 
 
 After all of these exclusions, there were 11,156 lines (~34% of the new total lines) where final sale was blank. 
 I assumed these were freebees given out to generate more business. 
-I also assumed any final quantity with a decimal value was a valid transaction.
+I also assumed any final quantity with a decimal value was a valid transaction. 
+Lastly, I removed any duplicate rows.
+
+Moving on to the analysis,
+
+What are the top 5 brands by receipts scanned among users 21 and over?
+
+Who are Fetch’s power users?
+Which is the leading brand in the Dips & Salsa category?

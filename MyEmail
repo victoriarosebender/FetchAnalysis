@@ -16,11 +16,14 @@ I assumed these were freebees given out to generate more business.
 I also assumed any final quantity with a decimal value was a valid transaction. 
 Lastly, I removed any duplicate rows.
 
+When combining the User data with the Transaction file, 99.5% of users in the transaction file do not have corresponding user data.
+
 Moving on to the analysis,
 
 What are the top 5 brands by receipts scanned among users 21 and over?
 
 Who are Fetch’s power users?
+99.5% of users in the transaction file are not in the users file. This will need to be resolved.
 
 Which is the leading brand in the Dips & Salsa category?
 This assumes within the Dips & Salsa category the brand with the highest sales is the leading brand.

@@ -21,7 +21,9 @@ When combining the Product data with the Transaction file, 97.5% of barcodes in 
 
 Moving on to the analysis,
 
-What are the top 5 brands by receipts scanned among users 21 and over?
+**What are the top 5 brands by receipts scanned among users 21 and over?**
+The answer is invalid due to missing data. Below is the result I was able to pull based on the limited data and queryF can be reran once the data is complete.
+DEAN'S DAIRY DIP with 1 unique receipt attached to it.
 
 
 **Who are Fetch’s power users?**
@@ -36,6 +38,7 @@ In the meantime, I have supplied the top 5 users based on total sales
 | 643059f0838dd2651fb27f50       | 4         | $75.99       |
 
 **Which is the leading brand in the Dips & Salsa category?**
+This answer is invalid due to missing data. Below is the result I was able to pull based on the limited data and queryD can be reran once the data is complete.
 This assumes within the Dips & Salsa category the brand with the highest sales is the leading brand.
 DEAN'S DAIRY DIP is the leading Brand in the Dips & Salsa category coming in with 22 units in sales and $39.95 in sales.
 

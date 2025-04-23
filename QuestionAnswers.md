@@ -16,8 +16,8 @@ I assumed these were freebees given out to generate more business.
 I also assumed any final quantity with a decimal value was a valid transaction. 
 Lastly, I removed any duplicate rows.
 
-**When combining the User data with the Transaction file, 99.5% of users in the transaction file do not have corresponding user data.
-When combining the Product data with the Transaction file, 97.5% of barcodes in the transaction file do not have corresponding product data.**
+***When combining the User data with the Transaction file, 99.5% of users in the transaction file do not have corresponding user data.
+When combining the Product data with the Transaction file, 97.5% of barcodes in the transaction file do not have corresponding product data.***
 
 
 Moving on to the analysis:

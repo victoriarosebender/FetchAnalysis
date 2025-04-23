@@ -23,10 +23,19 @@ Moving on to the analysis,
 
 What are the top 5 brands by receipts scanned among users 21 and over?
 
-Who are Fetch’s power users?
-99.5% of users in the transaction file are not in the users file. This will need to be resolved.
 
-Which is the leading brand in the Dips & Salsa category?
+**Who are Fetch’s power users?**
+99.5% of users in the transaction file are not in the users file. This will need to be resolved.
+In the meantime, I have supplied the top 5 users based on total sales
+| User IDs                        | Total Qty | Total Sales |
+|--------------------------------|-----------|-------------|
+| 65e4bc2716cc391732143569       | 9         | $88.37       |
+| 60a5363facc00d347abadc8e       | 44        | $84.58       |
+| 6183300cf998e47aad2d6f5d       | 11.1      | $82.28       |
+| 6475fd16a55bb77a0e279ee0       | 4         | $77.80       |
+| 643059f0838dd2651fb27f50       | 4         | $75.99       |
+
+**Which is the leading brand in the Dips & Salsa category?**
 This assumes within the Dips & Salsa category the brand with the highest sales is the leading brand.
 DEAN'S DAIRY DIP is the leading Brand in the Dips & Salsa category coming in with 22 units in sales and $39.95 in sales.
 

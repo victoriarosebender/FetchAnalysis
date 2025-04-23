@@ -2,7 +2,7 @@ Hello Lydia,
 
 I have since review the data order files. 
 
-A couple of validation notes. 
+A couple of validation notes:
 
 On the transactions file, there were 12,500 lines that had zero for final quantity.
 These were excluded as it is assumed that items will be either purchased or returned with each transaction.
@@ -16,10 +16,11 @@ I assumed these were freebees given out to generate more business.
 I also assumed any final quantity with a decimal value was a valid transaction. 
 Lastly, I removed any duplicate rows.
 
-When combining the User data with the Transaction file, 99.5% of users in the transaction file do not have corresponding user data.
-When combining the Product data with the Transaction file, 97.5% of barcodes in the transaction file do not have corresponding product data.
+**When combining the User data with the Transaction file, 99.5% of users in the transaction file do not have corresponding user data.
+When combining the Product data with the Transaction file, 97.5% of barcodes in the transaction file do not have corresponding product data.**
 
-Moving on to the analysis,
+
+Moving on to the analysis:
 
 **What are the top 5 brands by receipts scanned among users 21 and over?**
 The answer is invalid due to missing data. Below is the result I was able to pull based on the limited data and queryF can be reran once the data is complete.

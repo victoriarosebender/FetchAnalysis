@@ -4,20 +4,22 @@ I have since review the data order files.
 
 A couple of validation notes:
 
-On the transactions file, there were 12,500 lines that had zero for final quantity.
+The transaction file gave us transactions that took place between 6/12/24 - 9/8/24.
+
+Continuing with the transaction file, there were 12,500 lines that had zero for final quantity.
 These were excluded as it is assumed that items will be either purchased or returned with each transaction.
 The sum of sales for these zero lines was $57,372.67 (33.4% of total). This is excluded from the analysis results.
 
 After the above exclusion, there were 4,338 lines that had no barcode these account for $14,010.56 in sales (12.3% of total sales) and 4,672.79 quantity (11.5% of qty) and will be excluded.
 There were 5 lines that had -1 barcode these account for $9.71 (<0.01% of total sales) in sales and 5 quantity and will be excluded.
 
-After all of these exclusions, there were 11,156 lines (~34% of the new total lines) where final sale was blank. 
+After all of these exclusions, there were 11,156 transactions (~34% of the new total transactions) where final sale was blank. 
 I assumed these were freebees given out to generate more business. 
 I also assumed any final quantity with a decimal value was a valid transaction. 
 Lastly, I removed any duplicate rows.
 
-***When combining the User data with the Transaction file, 99.5% of users in the transaction file do not have corresponding user data.
-When combining the Product data with the Transaction file, 97.5% of barcodes in the transaction file do not have corresponding product data.***
+*When combining the User data with the Transaction file, 99.5% of users in the transaction file do not have corresponding user data.
+When combining the Product data with the Transaction file, 97.5% of barcodes in the transaction file do not have corresponding product data.*
 
 
 Moving on to the analysis:
@@ -43,3 +45,8 @@ This answer is invalid due to missing data. Below is the result I was able to pu
 This assumes within the Dips & Salsa category the brand with the highest sales is the leading brand.
 DEAN'S DAIRY DIP is the leading Brand in the Dips & Salsa category coming in with 22 units in sales and $39.95 in sales.
 
+
+**Additional Insights**
+
+![SalesOverTime](/workspaces/FetchAnalysis/SalesOverTime.png)
+This shows us that on average daily sales ranged from $800 - $1,400 between mid June and early September.

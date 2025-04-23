@@ -48,5 +48,17 @@ DEAN'S DAIRY DIP is the leading Brand in the Dips & Salsa category coming in wit
 
 **Additional Insights**
 
-![SalesOverTime](/workspaces/FetchAnalysis/SalesOverTime.png)
-This shows us that on average daily sales ranged from $800 - $1,400 between mid June and early September.
+![SalesOverTime](SalesOverTime.png)
+This shows us total daily sales with rolling weekly average to help us better see the trends. The average daily sales ranged from $800 - $1,400 between mid June and early September.
+
+![DayofWeek](DayofWeek.png)
+This shows average sales by day of week. An insight we can draw from this is that on average weekend sales are 15% higher than weekday sales.
+
+
+This concludes my insights for the time being. Once we have the completed user data and product data, we can conduct a deeper analysis. 
+Please do not hesitate to reach out if you'd like any assistance working with the client. I would be happy to supply them a list of those missing barcodes and user ids.
+
+
+Best,
+
+Victoria Bender
